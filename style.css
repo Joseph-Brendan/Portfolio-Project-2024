@@ -313,3 +313,7 @@
     text-decoration: none;
     color: #B187A6;
 }
+
+.read-publication-link-container a:hover{
+    color: #D9416F;
+}
