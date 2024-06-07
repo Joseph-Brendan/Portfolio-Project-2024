@@ -260,6 +260,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: start;
+    flex-wrap: wrap;
+    row-gap: 1rem;
 }
 
 .publication-card{
@@ -316,4 +318,115 @@
 
 .read-publication-link-container a:hover{
     color: #D9416F;
+}
+
+
+/* Media Query For Tablet & Ipad Devices */
+@media screen and (max-width: 1120px){
+    .hero-section{
+        width: 100%;
+        height: auto;
+        background-color:#180C15;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        color: white;
+        padding: 4rem 2rem 6rem 2rem;
+    }
+
+    .hero-description-container{
+        width: 80%;
+        height: auto;
+    }
+
+    .project-section{
+        width: 100%;
+        height: auto;
+        background-color: #180C15;
+        color: white;
+        padding: 0 2rem 5rem 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        row-gap: 1rem;
+    }
+
+    .project-card{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        row-gap: 0.24rem;
+    }
+
+    .publication-section{
+        width: 100%;
+        height: auto;
+        background-color: #180C15;
+        color: white;
+        padding: 1rem 2rem 5rem 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        row-gap: 1rem;
+    }
+
+    .publication-card{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        row-gap: 1.2rem;
+        background-color: #21161E;
+        padding: 1.2rem;
+        border: 1px solid #4C4C4C;
+        border-radius: 1.5rem;
+    }
+}
+
+
+/* Media Query For Mobile Devices */
+@media screen and (max-width: 480px){
+    .hero-section{
+        width: 100%;
+        height: auto;
+        background-color:#180C15;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        color: white;
+        padding: 4rem 0.5rem 6rem 0.5rem;
+    }
+
+    .project-section{
+        width: 100%;
+        height: auto;
+        background-color: #180C15;
+        color: white;
+        padding: 2rem 0.5rem 5rem 0.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        row-gap: 1rem;
+    }
+
+    .publication-section{
+        width: 100%;
+        height: auto;
+        background-color: #180C15;
+        color: white;
+        padding: 1rem 0.5rem 5rem 0.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        row-gap: 1rem;
+    }
 }
